@@ -1,0 +1,12 @@
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 1px;
+}
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}

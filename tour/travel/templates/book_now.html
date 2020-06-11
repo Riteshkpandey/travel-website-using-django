@@ -1,0 +1,54 @@
+<h2 style="text-align:center" >BOOK NOW</h2>
+
+<link href="/static/backbutton.css" rel="stylesheet"/>
+<button class="btn danger" onclick="history.back(-1)">Back</button>
+
+<!-- booking code -->
+
+
+<form method="post" action="#" onsubmit="alert('We Will Contact You Very Soon...!');">
+	{%csrf_token %}
+	<div class="container">
+	<link href="/static/bookcss.css" rel="stylesheet"/>
+	
+		
+	
+	    <label for="name">Name</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Enter your name.." required >
+	
+	    <label for="mobile">Mobile Number</label>
+	    <p></p>
+	    <input type="text" id="mobile_number" name="mobile number" placeholder="Enter Your Mobile number.. " required>
+	    <p></p>
+		<label for="From">From: Ranchi,Jharkhand</label>
+		<p></p>
+		 <label for="to">To</label>
+	    <input type="text" id="to" name="to" placeholder="Enter your Destination..."  required>
+	    <p></p>   
+	    <label for="Date">Date</label>
+	    <input type="date" id="Date" name="date" >
+	    <p></p>
+	    
+	    <label for="vehicle">Vehicle</label>
+	    <select id="vehicle" name="Vehicle">
+	      <option value="maruti">Maruti</option>
+	      <option value="honda">Honda</option>
+	      <option value="tuv">TUV</option>
+	    </select>
+		<p></p>
+		<label for="category">Select Category</label>
+	    <select id="category" name="category">
+	      <option value="With AC">With AC</option>
+	      <option value="Without AC">Without AC</option>
+	     
+	    </select>
+	    
+	    <input type="submit" value="Submit">
+	   
+	</div>
+</form>
+
+
+
+
+
